@@ -1,0 +1,34 @@
+{
+  "selected_architecture": "vit_b_16",
+  "selection_metric": "validation_macro_f1",
+  "train_signature": "a28bdeff87aac3605355c3e96d96f90a2c852df5616d1c3529cab3a6c1796f8c",
+  "classes": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "validation_ranking": [
+    {
+      "architecture": "vit_b_16",
+      "best_val_macro_f1": 0.785512138855427,
+      "best_val_loss": 0.578952124323398,
+      "best_epoch": 11
+    },
+    {
+      "architecture": "efficientnet_b0",
+      "best_val_macro_f1": 0.7074736544206817,
+      "best_val_loss": 0.5647197820638356,
+      "best_epoch": 22
+    },
+    {
+      "architecture": "resnet50",
+      "best_val_macro_f1": 0.7070875080824829,
+      "best_val_loss": 0.5592456016835969,
+      "best_epoch": 16
+    }
+  ]
+}

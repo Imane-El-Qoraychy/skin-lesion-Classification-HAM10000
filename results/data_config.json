@@ -1,0 +1,49 @@
+{
+    "classes": [
+        "akiec",
+        "bcc",
+        "bkl",
+        "df",
+        "mel",
+        "nv",
+        "vasc"
+    ],
+    "class_to_idx": {
+        "akiec": 0,
+        "bcc": 1,
+        "bkl": 2,
+        "df": 3,
+        "mel": 4,
+        "nv": 5,
+        "vasc": 6
+    },
+    "seed_split_selected": 71,
+    "target_split_ratios": {
+        "train": 0.7,
+        "val": 0.15,
+        "test": 0.15
+    },
+    "split_sizes": {
+        "train": 7012,
+        "val": 1501,
+        "test": 1502
+    },
+    "class_counts_train_only": {
+        "akiec": 228,
+        "bcc": 381,
+        "bkl": 743,
+        "df": 75,
+        "mel": 783,
+        "nv": 4701,
+        "vasc": 101
+    },
+    "class_weights_train_only": {
+        "akiec": 4.393483709273183,
+        "bcc": 2.6291713535808023,
+        "bkl": 1.3482022687944626,
+        "df": 13.356190476190477,
+        "mel": 1.2793285896734172,
+        "nv": 0.21308536177712947,
+        "vasc": 9.917963224893917
+    }
+}

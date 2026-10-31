@@ -1,0 +1,63 @@
+# ==========================================
+# HAM10000 — Deep Learning & XAI
+# ==========================================
+
+# 1. Dataset : conserver uniquement les partitions CSV
+data/*
+!data/splits/
+!data/splits/*.csv
+
+# 2. Archives et fichiers compressés
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# 3. Modèles entraînés et checkpoints
+models/*
+!models/.gitkeep
+
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# 4. Checkpoints et sorties temporaires
+results/checkpoints/
+runs/
+wandb/
+lightning_logs/
+
+# 5. Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 6. Environnements virtuels
+.venv/
+venv/
+env/
+
+# 7. Jupyter Notebook
+.ipynb_checkpoints/
+
+# 8. Fichiers secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# 9. VS Code et fichiers système
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 10. Logs et fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+*~

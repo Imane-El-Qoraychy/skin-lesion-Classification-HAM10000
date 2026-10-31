@@ -1,0 +1,9 @@
+{
+  "architecture": "vit_b_16",
+  "best_val_macro_f1": 0.785512138855427,
+  "best_val_loss": 0.578952124323398,
+  "best_epoch": 11,
+  "epochs_completed": 16,
+  "checkpoint": "vit_b_16_best.pt",
+  "train_signature": "a28bdeff87aac3605355c3e96d96f90a2c852df5616d1c3529cab3a6c1796f8c"
+}

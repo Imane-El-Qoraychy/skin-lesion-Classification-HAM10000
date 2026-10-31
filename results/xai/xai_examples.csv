@@ -1,0 +1,11 @@
+architecture,image_id,true_class,predicted_class,correct,case_type,method,ig_convergence_delta,figure
+vit_b_16,ISIC_0024351,mel,nv,False,mel → nv,Integrated Gradients,0.3091583251953125,/kaggle/working/ham10000_Portfolio/xai/vit_b_16/ISIC_0024351.png
+vit_b_16,ISIC_0024315,mel,mel,True,mel correct,Integrated Gradients,-0.6760053634643555,/kaggle/working/ham10000_Portfolio/xai/vit_b_16/ISIC_0024315.png
+vit_b_16,ISIC_0024422,bkl,mel,False,autre erreur,Integrated Gradients,-0.5202493667602539,/kaggle/working/ham10000_Portfolio/xai/vit_b_16/ISIC_0024422.png
+vit_b_16,ISIC_0024325,nv,nv,True,autre prédiction correcte,Integrated Gradients,-0.5332298278808594,/kaggle/working/ham10000_Portfolio/xai/vit_b_16/ISIC_0024325.png
+vit_b_16,ISIC_0024481,mel,nv,False,mel → nv,Integrated Gradients,0.2375655174255371,/kaggle/working/ham10000_Portfolio/xai/vit_b_16/ISIC_0024481.png
+efficientnet_b0,ISIC_0024351,mel,nv,False,mel → nv,Grad-CAM,,/kaggle/working/ham10000_Portfolio/xai/efficientnet_b0/ISIC_0024351.png
+efficientnet_b0,ISIC_0024315,mel,mel,True,mel correct,Grad-CAM,,/kaggle/working/ham10000_Portfolio/xai/efficientnet_b0/ISIC_0024315.png
+efficientnet_b0,ISIC_0024337,bkl,vasc,False,autre erreur,Grad-CAM,,/kaggle/working/ham10000_Portfolio/xai/efficientnet_b0/ISIC_0024337.png
+efficientnet_b0,ISIC_0024325,nv,nv,True,autre prédiction correcte,Grad-CAM,,/kaggle/working/ham10000_Portfolio/xai/efficientnet_b0/ISIC_0024325.png
+efficientnet_b0,ISIC_0025409,mel,nv,False,mel → nv,Grad-CAM,,/kaggle/working/ham10000_Portfolio/xai/efficientnet_b0/ISIC_0025409.png

@@ -1,0 +1,9 @@
+{
+  "architecture": "efficientnet_b0",
+  "best_val_macro_f1": 0.7074736544206817,
+  "best_val_loss": 0.5647197820638356,
+  "best_epoch": 22,
+  "epochs_completed": 27,
+  "checkpoint": "efficientnet_b0_best.pt",
+  "train_signature": "a28bdeff87aac3605355c3e96d96f90a2c852df5616d1c3529cab3a6c1796f8c"
+}
